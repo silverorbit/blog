@@ -22,22 +22,22 @@
 
 
 <meta name="author" content="support" />
-<meta name="description" content="We share our Experiences, Process and Tools with other Developers Last February 15, our team conducted a 1 day workshop with our invited fellow developers to work our Devops tools. We introduce our tools on how we do project with these workflow: Linux Operating System Vagrant for setting up developers …" />
+<meta name="description" content="Microservices: Build an containerized Flask API using AWS Fargate with MongoAtlas. The project idea is to get a stream of data going into MongoDB from a separate app, in this case using a script to insert new records. Mongo Atlas provides a hosted mongodb, which was setup with VPC Peering …" />
 <meta name="keywords" content="">
 
-<meta property="og:site_name" content="A Pelican Blog"/>
-<meta property="og:title" content="Team SilverOrbit February 2017 Activities"/>
-<meta property="og:description" content="We share our Experiences, Process and Tools with other Developers Last February 15, our team conducted a 1 day workshop with our invited fellow developers to work our Devops tools. We introduce our tools on how we do project with these workflow: Linux Operating System Vagrant for setting up developers …"/>
+<meta property="og:site_name" content="SilverOrbit - Philippines DevOps Consultancy"/>
+<meta property="og:title" content="Containerized API using AWS Fargate and Mongo Atlas"/>
+<meta property="og:description" content="Microservices: Build an containerized Flask API using AWS Fargate with MongoAtlas. The project idea is to get a stream of data going into MongoDB from a separate app, in this case using a script to insert new records. Mongo Atlas provides a hosted mongodb, which was setup with VPC Peering …"/>
 <meta property="og:locale" content="en_US"/>
-<meta property="og:url" content="http://10.224.49.146:8000/team-silverorbit-february-2017-activities.html"/>
+<meta property="og:url" content="http://10.224.49.146:8000/containerized-api-using-aws-fargate-and-mongo-atlas.html"/>
 <meta property="og:type" content="article"/>
-<meta property="article:published_time" content="2017-03-10 10:43:00+08:00"/>
+<meta property="article:published_time" content="2018-08-22 01:40:00+08:00"/>
 <meta property="article:modified_time" content=""/>
 <meta property="article:author" content="http://10.224.49.146:8000/author/support.html">
-<meta property="article:section" content="training, bootcamp, pycon"/>
+<meta property="article:section" content="aws, fargate, mongodb, microservices"/>
 <meta property="og:image" content="http://10.224.49.146:8000//images/so_logo.png">
 
-  <title>A Pelican Blog &ndash; Team SilverOrbit February 2017 Activities</title>
+  <title>SilverOrbit - Philippines DevOps Consultancy &ndash; Containerized API using AWS Fargate and Mongo Atlas</title>
 
 </head>
 <body>
@@ -74,9 +74,9 @@
 <article class="single">
   <header>
       
-    <h1 id="team-silverorbit-february-2017-activities">Team SilverOrbit February 2017 Activities</h1>
+    <h1 id="containerized-api-using-aws-fargate-and-mongo-atlas">Containerized API using AWS Fargate and Mongo Atlas</h1>
     <p>
-          Posted on Fri 10 March 2017 in <a href="http://10.224.49.146:8000/category/training-bootcamp-pycon.html">training, bootcamp, pycon</a>
+          Posted on Wed 22 August 2018 in <a href="http://10.224.49.146:8000/category/aws-fargate-mongodb-microservices.html">aws, fargate, mongodb, microservices</a>
 
 
     </p>
@@ -84,24 +84,17 @@
 
 
   <div>
-    <p>We share our Experiences, Process and Tools with other Developers</p>
-<p>Last February 15, our team conducted a 1 day workshop with our invited fellow developers 
-to work our Devops tools.</p>
-<p>We introduce our tools on how we do project with these workflow:</p>
-<ul>
-<li>Linux Operating System </li>
-<li>Vagrant for setting up developers environment</li>
-<li>Git Basics for Source Code Management(SCM)</li>
-</ul>
-<p>Our get together with professionals:</p>
-<ul>
-<li><img alt="Our Bootcamp image" src="/images/bootcamp/received_10155062628037140.jpeg">  </li>
-<li><img alt="Our Bootcamp image" src="/images/bootcamp/received_10155062628737140.jpeg">  </li>
-</ul>
-<p>These bootcamp will introduce our fellow developers on the right methodologies used in our software development. </p>
-<p>Also on February 25-26, we attended the Python Conference Philippines in Cagayan De Oro.
-<img alt="Our PyCon 2017" src="/images/pycon2017/pycon2017.jpeg">  </p>
-<p>We are glad we visit Cagayan de Oro for a weekend. Love the food, the people and most of all Mindanao, Philippines.</p>
+    <p>Microservices: Build an containerized Flask API using AWS Fargate with  MongoAtlas. </p>
+<p><img alt="Yay" src="/images/mongo-atlas/diagram.jpg"></p>
+<p>The project idea is to get a stream of data going into MongoDB from a separate app, in this case using a script to insert new records.
+Mongo Atlas provides a hosted mongodb, which was setup with VPC Peering with AWS. </p>
+<p><img alt="Yay" src="/images/mongo-atlas/mongo-atlas.jpg"></p>
+<p>On the API side, setup ECS and create a Docker repository.  Using Flask-Resful and PyMongo to access the MongoDB. 
+Upload the to Docker repository using AWS CLI, seems good.</p>
+<p><img alt="Yay" src="/images/mongo-atlas/docker_push.jpg"></p>
+<p>The API serves request from the mobile app and backoffice for reports and new updates. 
+Mobile app post request to group results per week.  </p>
+<p><img alt="Yay" src="/images/mongo-atlas/mobileapp.jpg"></p>
   </div>
   <div class="tag-cloud">
     <p>
@@ -127,7 +120,7 @@ to work our Devops tools.</p>
 {
   "@context" : "http://schema.org",
   "@type" : "Blog",
-  "name": " A Pelican Blog ",
+  "name": " SilverOrbit - Philippines DevOps Consultancy ",
   "url" : "http://10.224.49.146:8000",
   "image": "http://10.224.49.146:8000//images/so_logo.png",
   "description": ""
